@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,500&display=swap");
+* {
+  margin: 0;
+  font-family: poppins;
+}
+
+.navbar {
+  background: #fff0d3;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff9ec;
+  padding: 25px 100px;
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar ul li a:hover {
+  border-radius: 5px;
+  border-bottom: 2px solid purple;
+  color: purple;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.aboutme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 90px 100px;
+  background: linear-gradient(117.69deg, #fff0d3 0%, #f3d2ff 101.93%);
+}
+
+.aboutme .about h1 {
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: purple;
+}
+
+.aboutme .about h1 span {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  color: black;
+}
+
+.aboutme .about p {
+  letter-spacing: .3;
+}
+
+.aboutme .about p span {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.education {
+  padding: 90px 100px;
+  background: #fff7e7;
+}
+
+.education h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: purple;
+}
+
+.education .edu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.education .edu .wokk {
+  border-right: 1px solid;
+  padding-right: 200px;
+}
+
+.education .edu .wokk h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.education .edu .wokk h5 {
+  font-weight: 300;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.education .edu .cac h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.education .edu .cac h5 {
+  font-weight: 300;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.hobbskill {
+  background-color: whitesmoke;
+  padding: 90px 100px;
+}
+
+.hobbskill h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: purple;
+}
+
+.hobbskill .hobskil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.hobbskill .hobskil .hobb {
+  border-right: 1px solid;
+  padding-right: 200px;
+}
+
+.hobbskill .hobskil .hobb h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.hobbskill .hobskil .hobb ul {
+  list-style-type: square;
+}
+
+.hobbskill .hobskil .skill h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.hobbskill .hobskil .skill ul {
+  list-style-type: square;
+}
+
+.jobexp {
+  padding: 90px 100px;
+  background: #fff7e7;
+}
+
+.jobexp h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: purple;
+}
+
+.jobexp h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.jobexp h4 {
+  font-weight: 300;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.contact {
+  padding: 90px 100px;
+  background-color: whitesmoke;
+}
+
+.contact h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: purple;
+}
+
+.contact .fullname {
+  background: #faf5ec;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid purple;
+  width: 500px;
+  height: 50px;
+  margin-right: 25px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.contact .email {
+  background: #faf5ec;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid purple;
+  width: 500px;
+  height: 50px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.contact .message {
+  background: #faf5ec;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid purple;
+  width: 1030px;
+  height: 150px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.contact .my-work {
+  background: #faf5ec;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid purple;
+  width: 500px;
+  height: 50px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.contact .submit {
+  background: purple;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  color: white;
+  padding: 15px 50px 15px 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+.registration {
+  padding: 90px 100px;
+  background-color: whitesmoke;
+}
+
+.registration h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: purple;
+}
+
+.registration .fname, .registration .lname, .registration .tel, .registration .username, .registration .country, .registration .state, .registration .password, .registration .cpassword {
+  background: #faf5ec;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid purple;
+  width: 500px;
+  height: 50px;
+  margin-right: 25px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.registration .gender {
+  background: #faf5ec;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid purple;
+  width: 500px;
+  height: 50px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.registration .submit {
+  background: purple;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  color: white;
+  padding: 15px 50px 15px 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+.login {
+  padding: 90px 100px;
+  background-color: whitesmoke;
+}
+
+.login h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: purple;
+}
+
+.login .username, .login .password {
+  margin-left: 25%;
+  background: #faf5ec;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid purple;
+  width: 500px;
+  height: 50px;
+  margin-right: 25px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.login .submit {
+  margin-left: 43%;
+  background: purple;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  color: white;
+  padding: 15px 50px 15px 50px;
+  outline: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
